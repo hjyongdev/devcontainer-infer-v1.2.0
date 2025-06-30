@@ -1,0 +1,10 @@
+{
+    "name": "devcontainer-infer-v1.2.0",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "runArgs": [
+        "--privileged"
+    ]
+}
